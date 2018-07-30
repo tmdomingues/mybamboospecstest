@@ -49,7 +49,11 @@ public class PlanSpec {
                         new Stage("Stage 1")
                         .jobs(new Job("Build and run", "RUN")
                                 .tasks(
-                                        new ScriptTask().inlineBody("echo Hello world!"))));
+                                        new ScriptTask().inlineBody("echo Hello world!"))),
+                        new Stage("Stage 2")
+                        .jobs(new Job("Build and cenas", "RUN")
+                                .tasks(
+                                        new ScriptTask().inlineBody("echo Hello Tiago!"))));
     }
 
 
