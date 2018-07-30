@@ -44,7 +44,7 @@ public class PlanSpec {
         return new Plan(
                 project(),
                 "BambooPlanMadeByCode2", "BAMBOOKEYBYCODE2")
-                .description("Plan created from (enter repository url of your plan)")
+                .description("Plan created from (enter repository of your plan)")
                 .stages(
                         new Stage("Stage 1")
                         .jobs(new Job("Build and run", "RUN")
