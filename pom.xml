@@ -6,6 +6,13 @@
 	<artifactId>mybamboospecstest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<parent>
+		<groupId>com.atlassian.bamboo</groupId>
+		<artifactId>bamboo-specs-parent</artifactId>
+		<version>6.6.1</version>
+		<relativePath />
+	</parent>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<javac.target>1.8</javac.target>
@@ -15,12 +22,12 @@
 		<dependency>
 			<groupId>com.atlassian.bamboo</groupId>
 			<artifactId>bamboo-specs-api</artifactId>
-			<version>6.6.1</version>
+			
 		</dependency>
 		<dependency>
 			<groupId>com.atlassian.bamboo</groupId>
 			<artifactId>bamboo-specs</artifactId>
-			<version>6.6.1</version>
+			
 		</dependency>
 
 		<!-- Test dependencies -->
