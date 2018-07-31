@@ -44,12 +44,12 @@ public class PlanSpec {
         return new Plan(
                 project(),
                 "BambooPlanMadeByCode2", "BAMBOOKEYBYCODE2")
-                .description("Plan created X from (enter repository of your plan)")
+                .description("Mings from (enter repository of your plan)")
                 .stages(
                         new Stage("Stage 2")
                         .jobs(new Job("Build and cenas", "RUN2")
                                 .tasks(
-                                        new ScriptTask().inlineBody("echo Hello Tiago!"))));
+                                        new ScriptTask().inlineBody("echo Hello Tiago 2!"))));
     }
 
 
